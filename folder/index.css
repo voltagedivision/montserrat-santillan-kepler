@@ -11,10 +11,16 @@ section {
 
 #About {
     align-items: center;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border: 1px solid #6f2dbd;
+    background-color: rgb(255, 255, 149);
 }
 
 h1 {
-    font-size: large;
+    font-size: xx-large;
     font-weight: bolder;
     color: #b298dc;
 }
@@ -27,22 +33,73 @@ h2 {
 
 #Experience {
     display: block;
-    width: 100px;
-    height: 100px;
+    width: auto;
+    height: auto;
     padding: 5px;
-    border: 1px solid blue;
-    background-color: yellow;
+    border: 1px solid #6f2dbd;
+    background-color: rgb(255, 255, 149);
 }
 
-a:link, a:visited {
-    background-color: #f44336;
+#Connect {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border: 1px solid #6f2dbd;
+    background-color: rgb(255, 255, 149);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    background-color: #b396d5;
+    color: white;
+    margin-top: 10px;
+    margin: 5px;
+    text-align: left;
+    font-size: 20px;
+    flex: 1;
+  }
+
+  .full-width {
+    flex: 2;
+    margin-bottom: 20px;
+  }
+
+  .flex-container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #b396d5;
+  }
+  
+  .flex-container2 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+  }
+
+a:link,
+a:visited {
+    background-color: #b396d5;
     color: white;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  }
-  
-  a:hover, a:active {
-    background-color: red;
-  }
+}
+
+a:hover,
+a:active {
+    background-color: #946ec0;
+}
